@@ -30,6 +30,7 @@ It does look like this model would effectively predict the MPG of the prototypes
 
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
+Going off the data we have it does not look like all lots meet this design specification. Lots 1 and 2 both meet the requirements of 1500, but 3 does not. It's a small difference of a few points but it's worth looking into in order to get it up to standard.
 
 ## T-Tests on Suspension Coils
 
@@ -42,11 +43,16 @@ Write a short description of a statistical study that can quantify how the Mecha
 
 **What metric or metrics are you going to test?**
 
+For this test I would look at and compare fuel efficiency, maintenance required over time, and the overall safety rating to the general cost.
 
 **What is the null hypothesis or alternative hypothesis?**
 
+Here the null hypothesis would be that a low maintenaince, high fuel efficiency, and high safety car would be more expensive.
 
 **What statistical test would you use to test the hypothesis? And why?**
 
+I would use the 2 Sample T Test in order to compare the multiple samples needed to determine
 
 **What data is needed to run the statistical test?**
+
+For this we would need the price of each car model, the individual safety rating, the fuel efficiency, and the maintenance costs.
